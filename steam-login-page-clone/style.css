@@ -35,7 +35,7 @@ header {
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    max-width: 960px;
+    max-width: 1000px;
     padding: 0 20px;
 }
 
@@ -108,4 +108,141 @@ header {
     margin-left: 5px;
     margin-right: 5px;
     font-size: 11px;
+}
+
+main {
+    width: 100%;
+    height: 654px;
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url('https://community.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg') center top no-repeat, #181A21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container h1 {
+    position: relative;
+    top: -30px;
+    left: -40%;
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: 0px;
+    font-weight: bold;
+
+}
+
+.form {
+    /*width: 700px;*/
+    height: 335px;
+    background-color: #181A21;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    padding: 24px 32px;
+}
+
+.form-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #b8b8b8;
+}
+
+.form-left label {
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.form-left input[type=text],
+.form-left input[type=password] {
+    width: 400px;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #32353c;
+    margin-bottom: 8px;
+}
+
+.remember-me {
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#remember-me {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: #32353c;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.btn-signin {
+    width: 270px;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.form-left a {
+    margin-top: 16px;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+.form-right {
+    color: #b8b8b8;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.form-right p {
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.form-right img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.form-right p:last-of-type {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 4px;
 }
